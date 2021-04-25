@@ -1,0 +1,124 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sat Apr 24 11:51:33 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000004
+                   .org_2       code   0x000008    program   0x000002
+                   .org_3       code   0x000018    program   0x000826
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x000009      
+                            0x000018    0x00083d      
+            2092 out of 33048 program addresses used, program memory utilization is 6%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AGAIN1   0x0001b2    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN2   0x0001b6    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN3   0x0003b4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN4   0x0003b8    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN5   0x0005b6    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN6   0x0005ba    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                  CLRleft   0x00012c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                 CLRright   0x00016e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    DELAY   0x0001ae    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+               DELAY0.125   0x0003b0    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   DELAY5   0x0005b2    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                INCREMENT   0x0000ee    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                  SETleft   0x00013e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                 SETright   0x0000fc    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    bunyi   0x00001a    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   bunyi2   0x000028    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   bunyi3   0x000036    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check1   0x000824    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check2   0x000818    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check3   0x00080c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check4   0x000800    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check5   0x0007f4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check6   0x0007e8    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check7   0x0007dc    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check8   0x0007d0    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check9   0x0007c4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   launch   0x0000d4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                     left   0x00014e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                     loop   0x0000da    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                  masalah   0x000186    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   offLED   0x0000c6    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                     prob   0x000180    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    right   0x00010c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                 separate   0x000830    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show1   0x0000b8    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show2   0x0000aa    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show3   0x00009c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show4   0x00008e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show5   0x000080    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show6   0x000072    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show7   0x000064    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show8   0x000056    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show9   0x000048    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    start   0x0007b4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                       up   0x0000ca    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    bunyi   0x00001a    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   bunyi2   0x000028    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   bunyi3   0x000036    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show9   0x000048    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show8   0x000056    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show7   0x000064    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show6   0x000072    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show5   0x000080    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show4   0x00008e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show3   0x00009c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show2   0x0000aa    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    show1   0x0000b8    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   offLED   0x0000c6    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                       up   0x0000ca    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   launch   0x0000d4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                     loop   0x0000da    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                INCREMENT   0x0000ee    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                 SETright   0x0000fc    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    right   0x00010c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                  CLRleft   0x00012c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                  SETleft   0x00013e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                     left   0x00014e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                 CLRright   0x00016e    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                     prob   0x000180    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                  masalah   0x000186    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    DELAY   0x0001ae    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN1   0x0001b2    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN2   0x0001b6    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+               DELAY0.125   0x0003b0    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN3   0x0003b4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN4   0x0003b8    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   DELAY5   0x0005b2    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN5   0x0005b6    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   AGAIN6   0x0005ba    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                    start   0x0007b4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check9   0x0007c4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check8   0x0007d0    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check7   0x0007dc    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check6   0x0007e8    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check5   0x0007f4    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check4   0x000800    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check3   0x00080c    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check2   0x000818    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                   check1   0x000824    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+                 separate   0x000830    program     static D:\Class online\20-21 Sem 1\Microcontroller\MPLAB\rocketlauncher.asm
+
+
